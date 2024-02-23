@@ -2,13 +2,26 @@
 <html lang="en">
   <head>
     <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+
       table {
         border-collapse: collapse;
-        width: 100%;
+        width: 80%;
+        margin: 20px auto;
       }
 
       th, td {
-        border: 2px solid gray;
+        border: 2px solid #ddd;
         padding: 10px;
         text-align: left;
       }
@@ -16,8 +29,24 @@
       th {
         background-color: #f2f2f2;
       }
+
       img {
-        height:100px;
+        height: 100px;
+        display: block;
+        margin: auto;
+      }
+
+      .heropic {
+        text-decoration: none;
+        color: #333;
+      }
+
+      tr:hover {
+        background-color: #e0e0e0;
+      }
+
+      td:nth-child(2) {
+        font-weight: bold;
       }
     </style>
     <meta charset="UTF-8">
@@ -34,32 +63,32 @@
             <th>Weakness</th>
         </tr>
         <tr>
-            <th>Peter Parker</th>
+            <td>Peter Parker</td>
             <td>Spider-Man</td>
-            /// example of requirements.<td><a href="images/batmanprofile.jpg"><img class="heropic" src="images/batmanprofile.jpg" alt="Batman Pic"></a></td>
+            <td><a class="heropic" href="https://example.com/spiderman.jpg" target="_blank"><img src="https://example.com/spiderman.jpg" alt="Spider-Man"></a></td>
             <td>Wall crawling, strong, agile spider sense.</td>
             <td>Physically vulnerable</td>
         </tr>
         <tr>
-            <th>Tony Stark</th>
+            <td>Tony Stark</td>
             <td>Iron Man</td>
-            <td></td>
+            <td><a class="heropic" href="https://example.com/ironman.jpg" target="_blank"><img src="https://example.com/ironman.jpg" alt="Iron Man"></a></td>
             <td>Super smart and powered armor suit.</td>
             <td>Reliant on the arc reactor.</td>
         </tr>
         <tr>
-            <th>Logan</th>
+            <td>Logan</td>
             <td>Wolverine</td>
-            <td></td>
+            <td><a class="heropic" href="https://example.com/wolverine.jpg" target="_blank"><img src="https://example.com/wolverine.jpg" alt="Wolverine"></a></td>
             <td>Regeneration, claws, enhanced senses.</td>
-            <td>Adamantium posioning</td>
+            <td>Adamantium poisoning</td>
         </tr>
         <tr>
-            <th>Diane prince</th>
+            <td>Diane Prince</td>
             <td>Wonder Woman</td>
-            <td></td>
+            <td><a class="heropic" href="https://example.com/wonderwoman.jpg" target="_blank"><img src="https://example.com/wonderwoman.jpg" alt="Wonder Woman"></a></td>
             <td>Super strength, speed, agility. Wields magical weapons.</td>
-            <td>piercing weapons and certain magic.</td>
+            <td>Piercing weapons and certain magic.</td>
         </tr>
     </table>
   </body>
