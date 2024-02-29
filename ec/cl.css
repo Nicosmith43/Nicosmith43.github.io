@@ -4,9 +4,11 @@ body
 }
 :root
 {
-    uncoblue:rgb(1,45,91)
-    uncogold:rgb(254,189,54)
+    --uncoblue:rgb(1,45,91)
+    --uncogold:rgb(254,189,54)
+    --uncgray:rgb(235,235,235)
 }
 a{
     color:var(uncogold)
+    background-color:uncoblue
 }
