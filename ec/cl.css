@@ -2,3 +2,11 @@ body
 {
     background-color: blue;
 }
+:root
+{
+    uncoblue:rgb(1,45,91)
+    uncogold:rgb(254,189,54)
+}
+a{
+    color:var(uncogold)
+}
