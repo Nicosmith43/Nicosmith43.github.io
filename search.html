@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Google Search</title>
+</head>
+<body>
+
+    <h1>Advanced Google Search</h1>
+
+    <form action="https://www.google.com/search" method="GET">
+        <div>
+            <label for="query">Search Query:</label>
+            <input type="text" id="query" name="q" placeholder="Enter your search query">
+        </div>
+        
+        <div>
+            <label for="site">Search Within Site:</label>
+            <input type="text" id="site" name="as_sitesearch" placeholder="e.g., example.com">
+        </div>
+        
+        <div>
+            <label for="language">Search Language:</label>
+            <select id="language" name="lr">
+                <option value="">Any Language</option>
+                <option value="lang_en">English</option>
+                <option value="lang_fr">French</option>
+                <option value="lang_es">Spanish</option>
+            </select>
+        </div>
+        
+        <div>
+            <label>File Type:</label>
+            <input type="radio" id="filetype_any" name="as_filetype" value=""> <label for="filetype_any">Any</label>
+            <input type="radio" id="filetype_pdf" name="as_filetype" value="pdf"> <label for="filetype_pdf">PDF</label>
+            <input type="radio" id="filetype_doc" name="as_filetype" value="doc"> <label for="filetype_doc">Word Doc</label>
+        </div>
+        
+        <div>
+            <label for="results">Number of Results:</label>
+            <input type="number" id="results" name="num" min="1" max="100" value="10">
+        </div>
+        
+        <div>
+            <input type="submit" value="Search">
+        </div>
+    </form>
+
+</body>
+</html>
