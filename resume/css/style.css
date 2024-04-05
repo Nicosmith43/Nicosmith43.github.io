@@ -11,6 +11,13 @@ body{
 nav{
     background-color: #333;
     padding: 1rem;
+    position: relative;
+}
+nav .logo{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
 }
 nav ul{
     list-style-type: none;
